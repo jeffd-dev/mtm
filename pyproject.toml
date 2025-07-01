@@ -1,0 +1,28 @@
+[project]
+name = "mtm"
+version = "1.0.0"
+requires-python = ">= 3.11"
+dependencies = []
+authors = [
+  {name = "JeffD"},
+]
+description = "A little python3 project to organize file with tags."
+readme = "README.md"
+license = "GPL-3.0-only"
+keywords = ["tag", "file-manager"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Operating System :: OS Independent",
+    "Environment :: X11 Applications",
+    "Environment :: Console",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Desktop Environment :: File Managers",
+
+]
+
+[project.optional-dependencies]
+gui = ["ttkbootstrap"]
